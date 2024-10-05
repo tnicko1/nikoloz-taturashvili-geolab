@@ -1,9 +1,15 @@
-﻿using HW1 = nikoloz_taturashvili_geolab.Homework_1;
+﻿using Workshop = nikoloz_taturashvili_geolab.Workshop;
+using HW1 = nikoloz_taturashvili_geolab.Homework_1;
 using HW2 = nikoloz_taturashvili_geolab.Homework_2;
-class Program
+using HW3 = nikoloz_taturashvili_geolab.Homework_3;
+
+// ReSharper disable once IdentifierTypo
+namespace nikoloz_taturashvili_geolab;
+
+internal abstract class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
-        HW2.BankTransactions.Run();
+        HW3.Task3.Run();
     }
 }
